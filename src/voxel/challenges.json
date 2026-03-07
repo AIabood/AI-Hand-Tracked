@@ -1,0 +1,375 @@
+[
+    {
+        "id": "ch_001",
+        "name": "المكعب الأول",
+        "title": "Single Voxel",
+        "description": "ضع مكعباً واحداً في المكان المحدد",
+        "type": "precision",
+        "difficulty": "easy",
+        "audience": "kids",
+        "timeLimit": null,
+        "snapTolerance": 1.2,
+        "allowExtra": true,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "ch_002",
+        "name": "صف من 3",
+        "title": "Row of 3",
+        "description": "ابنِ صفاً أفقياً من 3 مكعبات",
+        "type": "shape",
+        "difficulty": "easy",
+        "audience": "both",
+        "timeLimit": null,
+        "snapTolerance": 1.0,
+        "allowExtra": true,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "ch_003",
+        "name": "شكل L",
+        "title": "L-Shape",
+        "description": "ابنِ شكل حرف L",
+        "type": "shape",
+        "difficulty": "easy",
+        "audience": "both",
+        "timeLimit": 60,
+        "snapTolerance": 0.8,
+        "allowExtra": true,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                2,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "ch_004",
+        "name": "الدرج",
+        "title": "Staircase",
+        "description": "ابنِ درجاً صاعداً من 4 درجات",
+        "type": "shape",
+        "difficulty": "medium",
+        "audience": "both",
+        "timeLimit": 90,
+        "snapTolerance": 0.8,
+        "allowExtra": true,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                2,
+                2,
+                0
+            ],
+            [
+                3,
+                3,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "ch_005",
+        "name": "مكعب 2×2×2",
+        "title": "Cube 2×2×2",
+        "description": "ابنِ مكعباً كاملاً من 8 قطع",
+        "type": "shape",
+        "difficulty": "medium",
+        "audience": "both",
+        "timeLimit": 120,
+        "snapTolerance": 0.8,
+        "allowExtra": false,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ]
+    },
+    {
+        "id": "ch_006",
+        "name": "البيت",
+        "title": "House",
+        "description": "ابنِ بيتاً صغيراً بسقف مثلث",
+        "type": "shape",
+        "difficulty": "hard",
+        "audience": "adults",
+        "timeLimit": 180,
+        "snapTolerance": 0.6,
+        "allowExtra": false,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                3,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2
+            ],
+            [
+                2,
+                0,
+                2
+            ],
+            [
+                3,
+                0,
+                2
+            ],
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                3,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                3,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                3,
+                1,
+                1
+            ],
+            [
+                1,
+                2,
+                0
+            ],
+            [
+                2,
+                2,
+                0
+            ],
+            [
+                1,
+                2,
+                2
+            ],
+            [
+                2,
+                2,
+                2
+            ],
+            [
+                1,
+                2,
+                1
+            ],
+            [
+                2,
+                2,
+                1
+            ]
+        ]
+    },
+    {
+        "id": "ch_007",
+        "name": "سباق السرعة",
+        "title": "Speed Row",
+        "description": "ابنِ صفاً من 5 مكعبات بأسرع وقت!",
+        "type": "speed",
+        "difficulty": "medium",
+        "audience": "both",
+        "timeLimit": 30,
+        "snapTolerance": 1.0,
+        "allowExtra": true,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                2,
+                0,
+                0
+            ],
+            [
+                3,
+                0,
+                0
+            ],
+            [
+                4,
+                0,
+                0
+            ]
+        ]
+    },
+    {
+        "id": "ch_008",
+        "name": "نقطة الدقة",
+        "title": "Precision Dot",
+        "description": "ضع مكعباً واحداً في نقطة بعيدة بدقة عالية",
+        "type": "precision",
+        "difficulty": "hard",
+        "audience": "adults",
+        "timeLimit": 45,
+        "snapTolerance": 0.6,
+        "allowExtra": false,
+        "memoryMode": false,
+        "memoryDuration": 0,
+        "targetVoxels": [
+            [
+                3,
+                4,
+                2
+            ]
+        ]
+    }
+]
